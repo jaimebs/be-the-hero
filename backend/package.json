@@ -1,7 +1,7 @@
 {
   "name": "back-end",
-  "version": "1.0.",
-  "description": "Back-end feito em node, express, Knex e Sqlite.",
+  "version": "1.0.0",
+  "description": "Backend feito em node, express, Knex e Sqlite.",
   "main": "index.js",
   "dependencies": {
     "cors": "^2.8.5",
