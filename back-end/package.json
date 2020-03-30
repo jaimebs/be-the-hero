@@ -1,7 +1,7 @@
 {
   "name": "back-end",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.",
+  "description": "Back-end feito em node, express, Knex e Sqlite.",
   "main": "index.js",
   "dependencies": {
     "cors": "^2.8.5",
@@ -12,7 +12,6 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon src/index.js"
   },
   "keywords": [],
