@@ -6,7 +6,7 @@ module.exports = {
     const { id } = req.body;
 
     const ong = await connection(ongs)
-      .where('id', id)
+      .where('id', id.trim())
       .select('name')
       .first();
 
